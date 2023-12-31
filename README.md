@@ -17,10 +17,9 @@
 * Resolver cada situação de forma individual e não desistir da solução mesmo que demore um pouco.
 * Como ultimo projeto de ano de 2023, me sinto orgulhoso de minha realização e minha trajetória até aqui.
 
-## Próximos passos;
-* Incrementar modulo de FAQ "Perguntas frequentes" - Realizado
-
-* Incrementar modulo de Formulario de Contato. 
+## Extras;
+* Incrementado modulo de FAQ "Perguntas frequentes" - Realizado
+* Incrementado modulo de Formulario de Contato. 
 
 ### Screenshots
 * Desktop
