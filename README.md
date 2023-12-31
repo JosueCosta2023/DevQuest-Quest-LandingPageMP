@@ -17,7 +17,7 @@
 * Resolver cada situação de forma individual e não desistir da solução mesmo que demore um pouco.
 * Como ultimo projeto de ano de 2023, me sinto orgulhoso de minha realização e minha trajetória até aqui.
 
-## Extras;
+## Extras
 * Incrementado modulo de FAQ "Perguntas frequentes" - Realizado
 * Incrementado modulo de Formulario de Contato. 
 
