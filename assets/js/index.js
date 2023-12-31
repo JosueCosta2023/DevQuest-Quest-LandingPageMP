@@ -1,19 +1,4 @@
-//Logica de programação:
-
-/*
-    - Quando o usuario clicar na setas avançar e voltar, a imagem deve ser alterada.
-
-    - Para alterar a imagem:
-        -- Primeiro esconda a imagem atual, removendo a classe MOSTRAR.
-        -- Segundo, exiba a proxima imagem, inserindo a classe MOSTRAR.
-
-    - Com todas as imagens selecionadas em um array, utilize a chave do array para navegar entre as imagens.
-
-    - Para ser possivel a navegação, vamos utilizar um contador e incrementa-lo sempre que o usuario clicar na seta avançar e iremos decrementar-lo se o usuario clicar na seta voltar.
-
-    - Este valor do CONTADOR sera usado como variavel para navegar pelas imagens através do atributo KEY do array de imagens.
-*/
-
+// Seção Slider
 const imagensPainel     = document.querySelectorAll('.imagem-painel');
 const setaAvancar       = document.getElementById('btn-avancar');
 const setaVoltar        = document.getElementById('btn-voltar');
@@ -54,7 +39,6 @@ setaVoltar.addEventListener('click', function(){
 
 })
 
-
 function exibirImagem() {
     imagensPainel[imagemAtual].classList.add('mostrar');
 }
@@ -87,4 +71,50 @@ function ocultarOuExibirSetas() {
         setaVoltar.classList.remove('desabilitar')
     }
 }
+
+// Seção FAQ
+document.addEventListener('DOMContentLoaded', function(){
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach(function(item){
+
+        const question = item.querySelector(".question");
+        const icone = item.querySelector(".icone");
+
+        question.addEventListener("click", function(){
+
+            item.classList.toggle("mostrar")
+
+            icone.classList.toggle("rotate")
+        })
+
+    })
+})
+
+// Seção Formulario
+
+const campos = document.querySelectorAll(".input-text");
+const botao = document.querySelector(".botao-enviar")
+
+
+botao.addEventListener("click", function(e){
+    e.preventDefault();
+
+    campos.forEach((input)=>{
+
+        if(input.value === ""){
+            input.nextElementSibling.classList.add("required");
+            input.classList.add("campo-vazio")
+        } else {
+            input.nextElementSibling.classList.remove("required")
+            input.classList.remove("campo-vazio")
+        }
+
+       
+        
+    
+
+    })
+})
+
 

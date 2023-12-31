@@ -18,7 +18,8 @@
 * Como ultimo projeto de ano de 2023, me sinto orgulhoso de minha realização e minha trajetória até aqui.
 
 ## Próximos passos;
-* Incrementar modulo de FAQ "Perguntas frequentes"
+* Incrementar modulo de FAQ "Perguntas frequentes" - Realizado
+
 * Incrementar modulo de Formulario de Contato. 
 
 ### Screenshots

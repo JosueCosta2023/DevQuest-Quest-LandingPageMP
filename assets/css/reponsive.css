@@ -1,3 +1,10 @@
+@media(max-width: 425px ){
+    .contato .formulario{
+        width: 90%;
+       
+    }
+}
+
 @media(max-width: 624px){
     .cabecalho{
         justify-content: center;
@@ -16,6 +23,15 @@
 @media(max-width: 900px){
     .conteudo-principal .paineis{
         height: 500px;
+    }
+
+    .contato .formulario img{
+        display: none;
+     }
+
+     .contato .formulario .form-content{
+        width: 100%;
+        
     }
 }
 
@@ -44,6 +60,7 @@
         margin: 20px 0;
     }
 }
+
 
 @media(max-width: 1200px){
     .quem-somos .conteudo{
