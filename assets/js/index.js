@@ -96,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function(){
 const campos = document.querySelectorAll(".input-text");
 const botao = document.querySelector(".botao-enviar")
 
-
 botao.addEventListener("click", function(e){
     e.preventDefault();
 
@@ -109,11 +108,6 @@ botao.addEventListener("click", function(e){
             input.nextElementSibling.classList.remove("required")
             input.classList.remove("campo-vazio")
         }
-
-       
-        
-    
-
     })
 })
 
