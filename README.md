@@ -1,6 +1,6 @@
 # DevQuest - JavaScript Intermediário
 ## Mapa devWeek - LandingPage Agencia Digital
-### [Deploy](https://josuecosta2023.github.io/devWeekQuestLandingPage/#) - Clique aqui para visualizar minha pagina Web
+### [Deploy](https://josuecosta2023.github.io/DevQuest-Quest-LandingPageMP/) - Clique aqui para visualizar minha pagina Web
 * Baseado no projeto MAPA DEV WEEK, do curso Devquest.
 
 
